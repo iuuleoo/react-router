@@ -18,3 +18,26 @@ body {
 h1 {
     margin: 22px 0;
 }
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
+a {
+    color: #981de2;
+    text-decoration: none;
+}
+
+a,
+button {
+    font-weight: 700;
+    transform: filters 0.2s;
+}
+
+button:hover, a:hover {
+    filter: brightness(0.7);
+}
