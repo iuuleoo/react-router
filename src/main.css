@@ -28,7 +28,7 @@ nav {
 
 
 a {
-    color: #981de2;
+    color: #a413ffff;
     text-decoration: none;
 }
 
@@ -40,4 +40,15 @@ button {
 
 button:hover, a:hover {
     filter: brightness(0.7);
+}
+
+span {
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+strong {
+    color: #f986f5;
+    text-transform: uppercase;
 }
